@@ -6,9 +6,10 @@ btnCambiarColor.addEventListener("click", () => {
 
   if (color === "") {
     alert("Debes escribir un valor para el color");
-  } else {
-    cambiarColorFondo(color);
+  } 
+  else {
   }
+    cambiarColorFondo(color);
 });
 
 function cambiarColorFondo(color) {
