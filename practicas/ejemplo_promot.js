@@ -4,7 +4,6 @@
 //let edad = Number.parseInt(prompt("Digita tu edad"));
 //let estadoCivil = prompt("Digite su estodo civil");
 
-
 // Estudiante
 /*
 let estudiante = {
@@ -21,8 +20,6 @@ let estudiante = {
 //estudiante.curso = prompt("Cual es tu curso");
 
 //console.log(typeof estudiante);
-
-
 
 // SEGUNDA PARTE
 /*
@@ -42,7 +39,6 @@ let edadActual = añoActual - añoñNacimiento;
 // Mostara alerta la edad actual
 alert (`Mi edad actual es ${edadActual} años.`);
 */
-
 
 // TERCERA PARTE
 
@@ -69,19 +65,16 @@ let conversionEnDollar = monto / tasaDollar;
 console.log(`Haz digitado ${monto} pesos. La tasa del Dollar es ${tasaDollar}. Tu conversion es igual a ${conversionEnDollar.toFixed(2)}`);
 */
 
-
-
 // CUARTA PARTE
 
 // Declare las varaiables
 // converti string a number
 // Le pido informacion al usuario
-let numero1 = Number.parseInt( prompt("Numero que deseas calcular. ejem.(20)"));
-let numero2 = Number.parseInt( prompt("otro numero. ejem.(10)"));
+let numero1 = Number.parseInt(prompt("Numero que deseas calcular. ejem.(20)"));
+let numero2 = Number.parseInt(prompt("otro numero. ejem.(10)"));
 
-// imprimiendo la suma 
+// imprimiendo la suma
 let suma = numero1 + numero2;
-
 
 // Mostrar una alerta para identificar el resultado final
 alert(`La suma de ${numero1} mas la suma de ${numero2} es igual a ${suma}`);
