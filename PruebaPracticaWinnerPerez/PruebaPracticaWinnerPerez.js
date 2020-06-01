@@ -11,7 +11,7 @@ while (edad <1 || edad >120) {
     edad = Number(prompt("Digita tu edad"));
 }
 
-
+// En esta parte le pido informacion a usuario
 let numero1 = Number(prompt("Digita un primer numero"));
 let numero2 = Number(prompt("DIgita un segundo numero"));
 
